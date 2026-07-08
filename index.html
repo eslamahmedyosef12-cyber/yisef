@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عمك Goo المصري | الملف التقني</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* إضافة تأثير النبض الاحترافي للصورة */
+        @keyframes pulse-shadow { 0%, 100% { box-shadow: 0 0 15px rgba(255,255,255,0.1); } 50% { box-shadow: 0 0 30px rgba(255,255,255,0.3); } }
+        .profile-img { animation: pulse-shadow 3s infinite; }
+    </style>
+</head>
+<body class="bg-gray-950 text-white p-6 min-h-screen flex flex-col items-center">
+    
+    <div class="max-w-lg w-full text-center">
+        <!-- الصورة الشخصية مع التأثير -->
+        <img src="https://i.ibb.co/5xty2X3t/1000223858.jpg" 
+             class="profile-img w-40 h-40 rounded-full border-4 border-gray-700 mx-auto mb-6 object-cover" 
+             alt="عمك Goo المصري">
+        
+        <h1 class="text-3xl font-bold">عمك Goo المصري</h1>
+        <p class="text-gray-400 mt-2">مبرمج مصري | متخصص في تطوير البوتات والذكاء الاصطناعي</p>
+
+        <!-- قسم نبذة عن المطور -->
+        <div class="mt-6 bg-gray-900 p-4 rounded-xl border border-gray-800 text-sm text-gray-400">
+            أنا يوسف (عمك Goo)، مبرمج شاب شغوف بالتقنية، متخصص في بناء بوتات التليجرام وحلول الأتمتة. أسعى دائماً لتقديم أدوات تقنية تسهل حياة المستخدمين.
+        </div>
+
+        <!-- المهارات التقنية -->
+        <div class="flex flex-wrap justify-center gap-3 mt-6">
+            <a href="https://www.python.org" target="_blank" class="bg-blue-900/30 border border-blue-500/50 px-3 py-1 rounded-lg text-xs text-blue-400 hover:bg-blue-600 hover:text-white transition">Python 🐍</a>
+            <a href="https://termux.dev" target="_blank" class="bg-yellow-900/30 border border-yellow-500/50 px-3 py-1 rounded-lg text-xs text-yellow-400 hover:bg-yellow-600 hover:text-white transition">Termux 📱</a>
+            <a href="https://www.kali.org" target="_blank" class="bg-gray-800 border border-gray-500 px-3 py-1 rounded-lg text-xs text-gray-300 hover:bg-gray-600 hover:text-white transition">Kali Linux 🐧</a>
+        </div>
+
+        <!-- الأزرار الرئيسية للبوتات والتواصل -->
+        <div class="mt-8 space-y-4">
+            <h2 class="text-sm uppercase tracking-widest text-gray-500 mb-4">خدمات تقنية</h2>
+            
+            <a href="https://t.me/Saff_Radar_bot" class="block bg-gray-900 border border-gray-700 py-3 rounded-xl hover:border-blue-500 transition duration-300">
+                🚀 بوت الصف (Radar)
+            </a>
+            
+            <a href="https://t.me/GooMasri_bot" class="block bg-gray-900 border border-gray-700 py-3 rounded-xl hover:border-blue-500 transition duration-300">
+                📥 بوت تحميل الفيديوهات
+            </a>
+            
+            <!-- زرار التواصل بالواتساب مع الرسالة التلقائية -->
+            <a href="https://wa.me/201144864084?text=أهلاً%20عمك%20Goo،%20أنا%20مهتم%20بمشاريعك%20التقنية%20وعاوز%20أتواصل%20معك" 
+               class="block bg-green-600 py-3 rounded-xl font-bold hover:bg-green-700 transition duration-300 mt-6 shadow-lg shadow-green-900/20">
+               تواصل معي عبر واتساب
+            </a>
+        </div>
+
+        <!-- تذييل الصفحة -->
+        <footer class="mt-12 text-gray-600 text-xs">
+            تم التطوير بواسطة عمك Goo المصري © 2026
+        </footer>
+    </div>
+</body>
+</html>
